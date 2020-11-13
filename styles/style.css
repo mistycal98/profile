@@ -1,0 +1,186 @@
+/* #1f2538  */
+/* To be deleted */
+/* .wrapper {
+  border: 1px solid red;
+}
+
+.section {
+  margin: 1rem 1rem;
+  border: 1px solid blue;
+}
+
+.l-heading {
+  border: 1px solid green;
+}
+#resume {
+  padding: 1rem 1rem;
+}
+.resume {
+  border: 1px solid yellow;
+}
+.resume-detail{
+  border: 1px solid green;
+} */
+
+@font-face {
+  font-family: minerva;
+  src: url(../assets/MINERVAM.OTF);
+}
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: minerva;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility */
+.italic {
+  font-style: italic;
+}
+.font1 {
+  font-size: 1.8rem;
+}
+
+.font2 {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.font3 {
+  font-size: 1.5rem;
+}
+
+.font4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.list {
+  list-style: none;
+}
+/* main wrapper */
+.wrapper {
+  height: auto;
+  width: auto;
+}
+
+.section {
+  height: auto;
+}
+/* Section Header: Navigation */
+#navigation-bar {
+  background-color: white;
+}
+.logo {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+/* Section: Banner */
+#banner {
+  background-color: white;
+  height: auto;
+  padding: 7rem 0;
+}
+
+.l-heading {
+  width: 100%;
+
+  text-align: center;
+}
+
+/* Section: Personal Photo */
+#personal-photo {
+  background-color: #f5aa36;
+  height: 90vh;
+}
+
+/* Section: Resume */
+
+#resume {
+  background-color: #f6f8f8;
+}
+
+#resume,
+#testimonials {
+  display: flex;
+}
+.resume {
+  padding: 5rem 0;
+  height: 10vh;
+  width: 50%;
+}
+
+.resume-detail {
+  height: auto;
+  width: 50%;
+}
+
+.resume-detail p {
+  padding: 2rem 2rem;
+}
+
+.resume-detail h1 {
+  padding: 2rem 2rem;
+}
+
+.resume-detail label {
+  padding: 2rem 2rem;
+}
+
+.resume-detail ul {
+  padding: 2rem 2rem;
+}
+.resume-detail ul li {
+  padding: 1rem;
+}
+
+.m-heading {
+  padding: 1rem;
+  font-weight: 200;
+}
+.btn {
+  text-align: center;
+  width: 30%;
+  background-color: #1a1f2d;
+  color: white;
+  margin: 3rem;
+}
+
+.btn p {
+  padding: 1rem;
+}
+/* Section: Testimonials */
+
+.testimonial {
+  margin: 5rem 1rem 2rem;
+}
+
+/* Section: Footer */
+#footer {
+  background-color: #f6f8f8;
+}
+
+.email {
+  text-align: center;
+  margin: 5rem 10rem;
+  padding-top: 3rem;
+}
+
+.social {
+  width: 10%;
+  margin: auto;
+}
+
+.social i {
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
