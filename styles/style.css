@@ -99,10 +99,18 @@ a {
 
 /* Section: Personal Photo */
 #personal-photo {
-  background: url(../assets/photo\ trad.png) no-repeat center;
-  height: 90vh;
+  
+  /* background-image: url("../assets/photo\ trad.png") no-repeat center; */
+  height: 100vh;
+  width: auto;
+  background-color: #ff9933;
 }
-
+.photo {
+  /* margin-top:4rem; */
+  object-fit: cover;
+  height: 100%;
+  width:100%;
+}
 /* Section: Resume */
 
 #resume {
