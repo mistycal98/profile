@@ -99,7 +99,7 @@ a {
 
 /* Section: Personal Photo */
 #personal-photo {
-  background: url(../assets/photo\ trad.png);
+  background: url(../assets/photo\ trad.png) no-repeat center;
   height: 90vh;
 }
 
